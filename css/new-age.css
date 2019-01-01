@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - New Age v5.0.1 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
@@ -15,13 +15,13 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #ffb700;
   -webkit-transition: all .35s;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #cc9200;
 }
 
 hr {
@@ -71,14 +71,14 @@ section h2 {
 }
 
 #mainNav .navbar-brand {
-  color: #fdcc52;
+  color: #ffb700;
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
 }
 
 #mainNav .navbar-brand:hover, #mainNav .navbar-brand:focus {
-  color: #fcbd20;
+  color: #cc9200;
 }
 
 #mainNav .navbar-toggler {
@@ -95,7 +95,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav > li > a.active {
-  color: #fdcc52 !important;
+  color: #ffb700 !important;
   background-color: transparent;
 }
 
@@ -110,7 +110,7 @@ section h2 {
 
 #mainNav .navbar-nav > li > a:hover,
 #mainNav .navbar-nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #ffb700;
 }
 
 @media (min-width: 992px) {
@@ -140,7 +140,7 @@ section h2 {
     color: #222222;
   }
   #mainNav.navbar-shrink .navbar-brand:hover, #mainNav.navbar-shrink .navbar-brand:focus {
-    color: #fdcc52;
+    color: #ffb700;
   }
   #mainNav.navbar-shrink .navbar-nav > li > a,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus {
@@ -148,7 +148,7 @@ section h2 {
   }
   #mainNav.navbar-shrink .navbar-nav > li > a:hover,
   #mainNav.navbar-shrink .navbar-nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #ffb700;
   }
 }
 
@@ -158,9 +158,9 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), #303030;
+  background: url("../img/bg-pattern.png"), -webkit-gradient(linear, right top, left top, from(#303030), to(#5e5e5e));
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #303030, #5e5e5e);
 }
 
 header.masthead .header-content {
@@ -280,8 +280,8 @@ section.features .feature-item i {
   font-size: 80px;
   display: block;
   margin-bottom: 15px;
-  background: -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
-  background: linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-gradient(linear, right top, left top, from(#303030), to(#5e5e5e));
+  background: linear-gradient(to left, #303030, #5e5e5e);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -309,7 +309,7 @@ section.cta .cta-content h2 {
 
 @media (min-width: 768px) {
   section.cta .cta-content h2 {
-    font-size: 80px;
+    font-size: 50px;
   }
 }
 
@@ -350,19 +350,19 @@ section.contact ul.list-social li a {
 }
 
 section.contact ul.list-social li.social-twitter a {
-  background-color: #1da1f2;
+  background-color: #4c75a3;
 }
 
 section.contact ul.list-social li.social-twitter a:hover {
-  background-color: #0d95e8;
+  background-color: #446992;
 }
 
 section.contact ul.list-social li.social-facebook a {
-  background-color: #3b5998;
+  background-color: #00aced;
 }
 
 section.contact ul.list-social li.social-facebook a:hover {
-  background-color: #344e86;
+  background-color: #0099d4;
 }
 
 section.contact ul.list-social li.social-google-plus a {
@@ -399,13 +399,13 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fdcc52), to(#fdc539));
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #ffb700;
+  background: -webkit-gradient(linear, left top, left bottom, from(#ffb700), to(#e6a500));
+  background: linear-gradient(#ffb700, #e6a500);
 }
 
 .text-primary {
-  color: #fdcc52;
+  color: #ffb700;
 }
 
 .no-gutter > [class*='col-'] {
@@ -421,8 +421,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 .btn-outline:hover, .btn-outline:focus, .btn-outline:active, .btn-outline.active {
   color: white;
-  border-color: #fdcc52;
-  background-color: #fdcc52;
+  border-color: #ffb700;
+  background-color: #ffb700;
 }
 
 .btn {
